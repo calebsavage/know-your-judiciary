@@ -1,0 +1,51 @@
+State,Has Elections,Has Retention Elections,Has Nonpartisan Elections,Has Partisan Elections,Type of elections,Primary?,Runoff?,Odd-year,"Incarceration Rate per 100,000"
+Alabama,1,0,0,1,P,No,Yes,No,840
+Alaska,1,1,0,0,R,No,No,No,600
+Arizona,1,1,1,1,P/NP/R,Yes,No,No,790
+Arkansas,1,0,1,0,NP,Yes,Yes,No,800
+California,1,1,1,0,NP/R,Yes,No,No,510
+Colorado,1,1,0,0,R,No,No,No,580
+Connecticut,1,0,0,1,P,Yes,Yes,No,420
+Delaware,0,0,0,0,No judicial elections,,,,690
+Florida,1,1,1,0,NP/R,Yes,No,No,720
+Georgia,1,0,1,0,NP,No,Yes,No,880
+Hawaii,0,0,0,0,No judicial elections,,,,390
+Idaho,1,1,1,0,NP/R,Yes,No,No,670
+Illinois,1,1,0,1,P/R,Yes,No,No,480
+Indiana,1,1,1,1,P/NP/R,Yes,No,No,650
+Iowa,1,1,0,0,R,No,No,No,430
+Kansas,1,1,0,1,P/R,Yes,No,No,590
+Kentucky,1,0,1,0,NP,Yes,No,No,780
+Louisiana,1,0,0,1,P,Yes,Yes,Yes,970
+Maine,1,0,0,1,P,Yes,Yes,No,300
+Maryland,1,1,1,0,NP/R,Yes,No,No,470
+Massachusetts,0,0,0,0,No judicial elections,,,,280
+Michigan,1,0,1,0,NP,Yes,No,Yes,570
+Minnesota,1,0,1,0,NP,Yes,No,No,290
+Mississippi,1,0,1,0,NP,Yes,Yes,Yes,960
+Missouri,1,1,0,1,P/R,Yes,No,No,730
+Montana,1,1,1,0,NP/R,Yes,No,No,550
+Nebraska,1,1,0,0,R,No,No,No,460
+Nevada,1,0,1,0,NP,Yes,No,Yes,680
+New Hampshire,0,0,0,0,No judicial elections,,,,330
+New Jersey,0,0,0,0,No judicial elections,,,,360
+New Mexico,1,0,0,1,P,Yes,Yes,No,710
+New York,1,0,0,1,P,Yes,Yes,Yes,380
+North Carolina,1,0,0,1,P,Yes,Yes,No,530
+North Dakota,1,0,1,0,NP,Yes,No,No,410
+Ohio,1,0,1,0,NP,Yes,No,Yes,610
+Oklahoma,1,1,1,0,NP/R,Yes,Yes,No,990
+Oregon,1,0,1,0,NP,Yes,No,No,500
+Pennsylvania,1,1,0,1,P/R,Yes,No,Yes,640
+Rhode Island,0,0,0,0,No judicial elections,,,,290
+South Carolina,1,0,0,1,P,Yes,No,No,640
+South Dakota,1,1,1,0,NP/R,Yes,No,No,670
+Tennessee,1,1,0,1,P/R,Yes,No,No,720
+Texas,1,0,0,1,P,Yes,No,No,780
+Utah,1,1,0,0,R,No,No,No,380
+Vermont,1,0,0,1,P,Yes,Yes,No,280
+Virginia,0,0,0,0,No judicial elections,,,,680
+Washington,1,0,1,0,NP,Yes,No,Yes,410
+West Virginia,1,0,0,1,P,Yes,No,No,550
+Wisconsin,1,0,1,0,NP,Yes,No,Yes,620
+Wyoming,1,1,0,0,R,No,Yes,No,660

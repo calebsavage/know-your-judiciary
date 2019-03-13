@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Know Your Judiciary</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<style>
+	  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}</style>
+  </head> 
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item"> <a class="nav-link" href="resources.html">Resources</a> </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Datasets
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="map.html">Map</a>
+                   <a class="dropdown-item" href="#">Another action</a>
+                   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+             </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+       </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center map-bg">
+      <h1 class="display-4">Know Your Judges</h1>
+      <p class="lead">Aggregating public data for the public good.</p>
+       <hr class="my-4">
+		<i>How do your local courts work?</i>
+       <p class="lead">
+		   <select name="state">
+<option value="" disabled>Select your state...</option>
+  <option value="AL">Alabama</option>
+  <option value="AK">Alaska</option>
+  <option value="AZ">Arizona</option>
+  <option value="AR">Arkansas</option>
+  <option value="CA">California</option>
+  <option value="CO">Colorado</option>
+  <option value="CT">Connecticut</option>
+  <option value="DE">Delaware</option>
+  <option value="FL">Florida</option>
+  <option value="GA">Georgia</option>
+  <option value="HI">Hawaii</option>
+  <option value="ID">Idaho</option>
+  <option value="IL">Illinois</option>
+  <option value="IN">Indiana</option>
+  <option value="IA">Iowa</option>
+  <option value="KS">Kansas</option>
+  <option value="KY">Kentucky</option>
+  <option value="LA">Louisiana</option>
+  <option value="ME">Maine</option>
+  <option value="MD">Maryland</option>
+  <option value="MA">Massachusetts</option>
+  <option value="MI">Michigan</option>
+  <option value="MN">Minnesota</option>
+  <option value="MS">Mississippi</option>
+  <option value="MO">Missouri</option>
+  <option value="MT">Montana</option>
+  <option value="NE">Nebraska</option>
+  <option value="NV">Nevada</option>
+  <option value="NH">New Hampshire</option>
+  <option value="NJ">New Jersey</option>
+  <option value="NM">New Mexico</option>
+  <option value="NY">New York</option>
+  <option value="NC">North Carolina</option>
+  <option value="ND">North Dakota</option>
+  <option value="OH">Ohio</option>
+  <option value="OK">Oklahoma</option>
+  <option value="OR">Oregon</option>
+  <option value="PA">Pennsylvania</option>
+  <option value="RI">Rhode Island</option>
+  <option value="SC">South Carolina</option>
+  <option value="SD">South Dakota</option>
+  <option value="TN">Tennessee</option>
+  <option value="TX">Texas</option>
+  <option value="UT">Utah</option>
+  <option value="VT">Vermont</option>
+  <option value="VA">Virginia</option>
+  <option value="WA">Washington</option>
+  <option value="WV">West Virginia</option>
+  <option value="WI">Wisconsin</option>
+  <option value="WY">Wyoming</option>
+</select>
+		   &nbsp; 
+		   <a href="pa.html">
+		   <button class="btn btn-primary">Find Info</button> </a></p>
+    </div>
+    <div class="container">
+       <div class="row text-center">
+          <div class="col-lg-6 offset-lg-3"> -</div>
+       </div>
+       <br>
+       <hr>
+       <br>
+       <div class="row">
+          <div class="col-md-4">
+			  <a href="map.html">
+             <div class="card">
+                <img class="card-img-top" src="map.png" alt="US Map">
+                <div class="card-body">
+                  <h4 class="card-title">Interactive Map </h4></a>
+                  <p class="card-text">Explore an overview of the United States comparing judicial selection methods and demographics.</p>
+                  <br><br>
+                </div>
+             </div>
+          </div>
+          <div class="col-md-4">
+             <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Featured Datasets</h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="card-link">View All</a>
+                   <a href="#" class="card-link">Submit</a>
+                </div>
+             </div>
+             <br>
+             <br/>
+             <div class="card">
+                <div class="card-header"><strong> Featured Resources</strong></div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><a href="https://ballotpedia.org">Ballotpedia</a></li>
+                  <li class="list-group-item"><a href="http://gavelgap.org">Gavel Gap</a></li>
+                  <li class="list-group-item"><a href="https://www.brennancenter.org">Brennan Center</a></li>
+                  <li class="list-group-item"><a href="resources.html">Full Listing....</a></li>
+                </ul>
+             </div>
+          </div>
+          <div class="col-md-4">
+			  <a href="pa.html">
+             <div class="card">
+                <img class="center" src="pa-court.png" alt="PA court" width="190px">
+                <div class="card-body">
+                  <h5 class="card-title">Spotlight on Pennsylvania</h5>
+                  <p class="card-text">An overview of judicial selection and outcomes in the Keystone State</p>
+                </div>
+<div class="card-body">
+          </div>
+             </div>
+				  </a>
+          </div>
+       </div>
+       <br/>
+       <br/>
+       <div class="row">
+          <div class=" col-md-4"> 
+			  Featured Video<br>
+			  <iframe width="90%"src="https://www.youtube.com/embed/poL7l-Uk3I8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+          <div class="col-md-4 "> <strong>We hear a lot about federal judges </strong>and the associated political battles over appointment, but have you ever stopped to think about how state and local judges are selected? </div>
+          <div class="col-md-4 "> The country is vast and diverse-- each state has wide latitude to establish and run its own court system. The result is a hodgepodge of rules and requirements that can differ greatly from state to state. Many areas have minimal or no  minimum qualifications for judgeship.</div>
+       </div>
+       <br/>
+       <br/>
+       <div class="row">
+          <div class="col-md-6 text-center">
+             <div class="card">
+                <div class="card-body">
+                   <h3>Get Involved</h3>
+                   <p>Connect with organizations in your area which are working towards a more equitable and transparent justice system. </p>
+                   <button type="button" class="btn btn-info btn-md">Info Button</button>
+                   <button type="button" class="btn btn-success btn-md">Success Button</button>
+                </div>
+             </div>
+          </div>
+          <div class="text-center col-md-6">
+             <div class="card">
+                <div class="card-body">
+                   <h3>Contribute</h3>
+                   <p>Submit a link, guest post, or dataset</p>
+					<textarea></textarea><br>
+                   <span class="badge badge-info">Submit</span>
+                </div>
+             </div>
+          </div>
+       </div>
+       <br>
+       <hr>
+       <div class="row">
+          <div class="text-center col-lg-6 offset-lg-3">
+            <h4>&nbsp;</h4>
+            <p>This is a project by <a href="http://calebcalebcaleb.com">Caleb Savage</a> for the course Resist: Intro to Technology &amp; Political Activism (A Product Design Approach) at <a href="http://itp.nyu.edu">NYU ITP</a>.</p>
+            <p><a href="https://github.com/calebsavage">Github </a></p>
+          </div>
+       </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
